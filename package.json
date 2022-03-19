@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "homepage": "http://mahabub-bd.github.io/gericht",
+  "author": "Mahabub Hossain",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.8.2",
