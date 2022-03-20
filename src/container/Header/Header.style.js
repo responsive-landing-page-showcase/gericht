@@ -26,7 +26,6 @@ const HeadingPrimary = styledComponents.h1`
     }
     
     @media screen and (max-width: 650px) {
-        
             font-size: 70px;
             line-height: 87px;
         

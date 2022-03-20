@@ -12,9 +12,9 @@ import {
 import { HeaderSection, HeadingPrimary, Image } from './Header.style';
 
 const Header = () => (
-    <HeaderSection>
+    <HeaderSection id="/">
         <SectionPadding>
-            <Wrapper id="/">
+            <Wrapper>
                 <WrapperInfo>
                     <SubHeading title="Chase The New Flavour" />
                     <HeadingPrimary>The Key To Fine Dining</HeadingPrimary>

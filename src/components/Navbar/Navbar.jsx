@@ -1,7 +1,5 @@
 import React, { useState } from 'react';
-import { BiAlignMiddle } from 'react-icons/bi';
-import { MdOutlineRestaurantMenu } from 'react-icons/md';
-import { colors, images } from '../../constants';
+import { images } from '../../constants';
 import {
     Div,
     Image,
@@ -16,6 +14,8 @@ import {
     SmallNavLink,
     SmallScreen,
     SmallScreenOverlay,
+    StyledAiFillCloseCircle,
+    StyledAiOutlineMenu,
 } from './Navbar.style';
 
 const navItems = [
@@ -55,21 +55,12 @@ const Navbar = () => {
             </Login>
 
             <SmallScreen>
-                <BiAlignMiddle
-                    color={colors.White}
-                    fontSize={27}
-                    cursor="pointer"
-                    onClick={() => setToggleMenu(true)}
-                />
+                <StyledAiOutlineMenu onClick={() => setToggleMenu(true)} />
 
                 {toggleMenu && (
                     <SmallScreenOverlay>
                         <SmallNavBar>
-                            <MdOutlineRestaurantMenu
-                                fontSize={32}
-                                color={colors.Golden}
-                                onClick={() => setToggleMenu(false)}
-                            />
+                            <StyledAiFillCloseCircle onClick={() => setToggleMenu(false)} />
                             {navItems.map(({ name, link }) => (
                                 <SmallNavItem key={name}>
                                     <SmallNavLink onClick={() => setToggleMenu(false)} href={link}>

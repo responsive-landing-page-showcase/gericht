@@ -1,17 +1,7 @@
 import React from 'react';
-import styledComponents from 'styled-components';
 import { images } from '../../constants';
 import { PCormorant } from '../../GlobalStyle';
-
-const Heading = styledComponents.div`
-    margin-bottom: 1rem;
-`;
-const Image = styledComponents.img`
-    width: 45px;
-    @media screen and (min-width: 2000px) {
-        width: 80px;
-    }
-    `;
+import { Heading, Image } from './SubHeading.Style';
 
 const SubHeading = ({ title }) => (
     <Heading>

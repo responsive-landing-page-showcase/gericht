@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { Navbar } from './components';
+import { FooterOverlay, Navbar } from './components';
 import { AboutUs, Chef, FindUs, Footer, Gallery, Header, Intro, Laurels } from './container/index';
 import Global from './Global';
 
@@ -16,6 +16,7 @@ const App = () => (
         <Gallery />
         <Intro />
         <Laurels />
+        <FooterOverlay />
     </>
 );
 

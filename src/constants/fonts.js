@@ -1,7 +1,7 @@
 const fonts = {
     base: 'Cormorant Upright',
 
-    alt: 'Open Sans',
+    alt: 'sans-serif',
 };
 
 export default fonts;

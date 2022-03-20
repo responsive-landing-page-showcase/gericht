@@ -34,6 +34,10 @@ export const PCormorant = styledComponents.p`
 
 export const POpensans = styledComponents.p`
       font-family: ${fonts.alt};
+      margin:2rem 0;
+      @media screen and (min-width: 850px) {
+          margin:4rem 0;
+      }     
       color: ${colors.White};
       font-weight: 400;
       letter-spacing: 0.04em;
@@ -52,10 +56,17 @@ export const POpensans = styledComponents.p`
     }
     `;
 export const HeadtextCormorant = styledComponents.h1`
-@media screen and (max-width: 450px) {
-    font-size: 45px;
-    line-height: 70px;
-}
+        font-family: ${fonts.base};
+        color: ${colors.Golden};
+        font-size: 64px;
+        @media screen and (max-width: 850px) {
+            font-size: 50px;
+            line-height: 70px;
+        }
+        @media screen and (max-width: 450px) {
+        font-size: 40px;
+        line-height: 70px;
+     }           
 `;
 export const CustomButton = styledComponents.button`
 
@@ -83,9 +94,8 @@ export const Wrapper = styledComponents.div`
 display: flex;
 justify-content: space-between;
 align-items: center;
-
 min-height: 80vh;
-padding: props.padding;
+
 @media screen and (max-width: 1150px) {
     flex-direction: column;
 }
@@ -114,4 +124,9 @@ margin-left: 2rem;
 @media screen and (max-width: 1150px) {
     margin: 5rem 0 0 0;
 }
+`;
+export const FlexCenter = styledComponents.div`
+display: flex;
+justify-content: center;
+align-items: center;
 `;

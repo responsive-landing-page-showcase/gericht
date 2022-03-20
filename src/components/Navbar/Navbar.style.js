@@ -1,5 +1,30 @@
+import { AiFillCloseCircle, AiOutlineMenu } from 'react-icons/ai';
 import styled from 'styled-components';
 import { colors, fonts } from '../../constants';
+
+const StyledAiFillCloseCircle = styled(AiFillCloseCircle)`
+    color: ${colors.Golden};
+    font-size: 27px;
+    cursor: pointer;
+    @media screen and (max-width: 850px) {
+        font-size: 30px;
+    }
+    @media screen and (max-width: 450px) {
+        font-size: 25px;
+    }
+`;
+
+const StyledAiOutlineMenu = styled(AiOutlineMenu)`
+    color: ${colors.White};
+    font-size: 27px;
+    cursor: pointer;
+    @media screen and (max-width: 850px) {
+        font-size: 30px;
+    }
+    @media screen and (max-width: 450px) {
+        font-size: 25px;
+    }
+`;
 
 const Image = styled.img`
     width: 150px;
@@ -51,7 +76,7 @@ const Login = styled.div`
     color: ${colors.White};
     justify-content: flex-end;
     align-items: center;
-    a {
+    & a {
         margin: 0 1rem;
         text-decoration: none;
         transition: all 0.3s ease-in-out;
@@ -162,4 +187,6 @@ export {
     SmallNavItem,
     SmallNavLink,
     SmallScreenOverlay,
+    StyledAiFillCloseCircle,
+    StyledAiOutlineMenu,
 };
