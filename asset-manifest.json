@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/gericht/static/css/main.47f029f7.chunk.css",
-    "main.js": "/gericht/static/js/main.b9b4947a.chunk.js",
-    "main.js.map": "/gericht/static/js/main.b9b4947a.chunk.js.map",
+    "main.css": "/gericht/static/css/main.0774d1eb.chunk.css",
+    "main.js": "/gericht/static/js/main.844f26ba.chunk.js",
+    "main.js.map": "/gericht/static/js/main.844f26ba.chunk.js.map",
     "runtime-main.js": "/gericht/static/js/runtime-main.3c580df6.js",
     "runtime-main.js.map": "/gericht/static/js/runtime-main.3c580df6.js.map",
-    "static/js/2.cdd92963.chunk.js": "/gericht/static/js/2.cdd92963.chunk.js",
-    "static/js/2.cdd92963.chunk.js.map": "/gericht/static/js/2.cdd92963.chunk.js.map",
+    "static/js/2.903ee88c.chunk.js": "/gericht/static/js/2.903ee88c.chunk.js",
+    "static/js/2.903ee88c.chunk.js.map": "/gericht/static/js/2.903ee88c.chunk.js.map",
     "index.html": "/gericht/index.html",
-    "static/css/main.47f029f7.chunk.css.map": "/gericht/static/css/main.47f029f7.chunk.css.map",
-    "static/js/2.cdd92963.chunk.js.LICENSE.txt": "/gericht/static/js/2.cdd92963.chunk.js.LICENSE.txt",
+    "static/css/main.0774d1eb.chunk.css.map": "/gericht/static/css/main.0774d1eb.chunk.css.map",
+    "static/js/2.903ee88c.chunk.js.LICENSE.txt": "/gericht/static/js/2.903ee88c.chunk.js.LICENSE.txt",
     "static/media/G.b571eb82.png": "/gericht/static/media/G.b571eb82.png",
     "static/media/award01.361a4bc4.png": "/gericht/static/media/award01.361a4bc4.png",
     "static/media/award02.8bbdd514.png": "/gericht/static/media/award02.8bbdd514.png",
@@ -34,8 +34,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.3c580df6.js",
-    "static/js/2.cdd92963.chunk.js",
-    "static/css/main.47f029f7.chunk.css",
-    "static/js/main.b9b4947a.chunk.js"
+    "static/js/2.903ee88c.chunk.js",
+    "static/css/main.0774d1eb.chunk.css",
+    "static/js/main.844f26ba.chunk.js"
   ]
 }
