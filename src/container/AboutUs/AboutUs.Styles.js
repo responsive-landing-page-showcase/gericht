@@ -83,9 +83,7 @@ text-align: right;
     align-items: flex-start;
     text-align: left;
 }
-@media screen and (max-width: 450px) {
-    align-items: center;
-}
+
 
 `;
 const OurHistoryContent = styledComponents.div`
@@ -95,9 +93,7 @@ justify-content: flex-start;
 align-items: flex-start;
 flex-direction: column;
 text-align: left;
-@media screen and (max-width: 450px) {
-    align-items: center;
-}`;
+`;
 
 export {
     AboutSection,

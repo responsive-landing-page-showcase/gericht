@@ -107,9 +107,7 @@ width: 100%;
 display: flex;
 justify-content: center;
 align-items: flex-start;
-@media screen and (max-width: 450px) {
-    align-items: center;
-}
+
 flex-direction: column;
 `;
 export const WrapperImage = styledComponents.div`
