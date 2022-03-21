@@ -19,7 +19,7 @@ import overlaybg from '../assets/overlaybg.png';
 import quote from '../assets/quote.png';
 import sign from '../assets/sign.png';
 import spoon from '../assets/spoon.svg';
-import welcome from '../assets/welcome.png';
+import welcome from '../assets/welcome.webp';
 
 export default {
     bg,

@@ -1,5 +1,5 @@
 import styledComponents from 'styled-components';
-import AboutBG from '../../assets/bg.png';
+import AboutBG from '../../assets/bg.webp';
 import { FlexCenter } from '../../GlobalStyle';
 
 const AboutSection = styledComponents(FlexCenter)`
@@ -25,13 +25,18 @@ width: 391px;
 height: 415px;
 z-index: 0;
 @media screen and (max-width: 850px) {
-    width: 50%;
-    height: 50%;
+    width: 30%;
+    height: 20%;
+    
+}
+@media screen and (max-width: 650px) {
+    width: 20%;
+    height: 15%;
     
 }
 @media screen and (max-width: 450px) {
-    width: 50%;
-    height: 50%;
+    width: 30%;
+    height: 15%;
     
 }
 `;
@@ -62,6 +67,9 @@ height: 910px;
 }
 @media screen and (max-width: 850px) {
     height: 510px;
+}
+@media screen and (max-width: 650px) {
+    height: 350px;
 }
 @media screen and (max-width: 450px) {
     height: 260px;
