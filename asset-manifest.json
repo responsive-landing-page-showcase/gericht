@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/gericht/static/css/main.719cddbc.chunk.css",
-    "main.js": "/gericht/static/js/main.caf4bdff.chunk.js",
-    "main.js.map": "/gericht/static/js/main.caf4bdff.chunk.js.map",
+    "main.js": "/gericht/static/js/main.a50e1a65.chunk.js",
+    "main.js.map": "/gericht/static/js/main.a50e1a65.chunk.js.map",
     "runtime-main.js": "/gericht/static/js/runtime-main.3c580df6.js",
     "runtime-main.js.map": "/gericht/static/js/runtime-main.3c580df6.js.map",
     "static/js/2.35d3e5f4.chunk.js": "/gericht/static/js/2.35d3e5f4.chunk.js",
@@ -17,7 +17,7 @@
     "static/media/award05.48a7f520.png": "/gericht/static/media/award05.48a7f520.png",
     "static/media/App.css": "/gericht/static/media/bg.3d421b1b.png",
     "static/media/bg.b4a5ce9d.webp": "/gericht/static/media/bg.b4a5ce9d.webp",
-    "static/media/chef.02d6c5b6.png": "/gericht/static/media/chef.02d6c5b6.png",
+    "static/media/chef.1c1c5f02.webp": "/gericht/static/media/chef.1c1c5f02.webp",
     "static/media/findus.585c393c.png": "/gericht/static/media/findus.585c393c.png",
     "static/media/gallery01.f2cbffe3.png": "/gericht/static/media/gallery01.f2cbffe3.png",
     "static/media/gallery02.27663bd9.png": "/gericht/static/media/gallery02.27663bd9.png",
@@ -26,8 +26,8 @@
     "static/media/knife.1121c0a5.png": "/gericht/static/media/knife.1121c0a5.png",
     "static/media/laurels.e7608286.png": "/gericht/static/media/laurels.e7608286.png",
     "static/media/logo.0286194c.png": "/gericht/static/media/logo.0286194c.png",
-    "static/media/meal.a1b6c6dc.mp4": "/gericht/static/media/meal.a1b6c6dc.mp4",
-    "static/media/menu.a8287c67.png": "/gericht/static/media/menu.a8287c67.png",
+    "static/media/meal.98305299.mp4": "/gericht/static/media/meal.98305299.mp4",
+    "static/media/menu.d1fad6b1.webp": "/gericht/static/media/menu.d1fad6b1.webp",
     "static/media/overlaybg.165362ee.png": "/gericht/static/media/overlaybg.165362ee.png",
     "static/media/sign.9bf0bd90.png": "/gericht/static/media/sign.9bf0bd90.png",
     "static/media/spoon.d079f43f.svg": "/gericht/static/media/spoon.d079f43f.svg",
@@ -37,6 +37,6 @@
     "static/js/runtime-main.3c580df6.js",
     "static/js/2.35d3e5f4.chunk.js",
     "static/css/main.719cddbc.chunk.css",
-    "static/js/main.caf4bdff.chunk.js"
+    "static/js/main.a50e1a65.chunk.js"
   ]
 }
