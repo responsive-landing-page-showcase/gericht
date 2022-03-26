@@ -9,6 +9,9 @@ export const SectionPadding = styledComponents.div`
         @media screen and (max-width: 650px) {
             padding: 4rem 2rem;
         }
+        @media screen and (max-width: 450px) {
+            padding: 2rem 2rem;
+        }
     `;
 
 export const PCormorant = styledComponents.p`
@@ -77,6 +80,7 @@ export const CustomButton = styledComponents.button`
     letter-spacing: 0.04em;
     line-height: 28px;
     font-size: 16px;
+    text-align: center;
     padding: 0.5rem 1.5rem;
     @media screen and (max-width: 450px) {
         padding: 0.3rem 0.7rem;
@@ -109,6 +113,9 @@ justify-content: center;
 align-items: flex-start;
 
 flex-direction: column;
+@media screen and (max-width: 1150px) {
+    margin: 3rem 0 0 ;
+}
 `;
 export const WrapperImage = styledComponents.div`
 
@@ -120,9 +127,13 @@ align-items: center;
 
 margin-left: 2rem;
 @media screen and (max-width: 1150px) {
-    margin: 5rem 0 0 0;
+    margin: 5rem 0 0 ;
 }
 `;
+export const WrapperImageReverse = styledComponents(WrapperImage)`
+justify-content: flex-start;
+margin-right: 2rem;`;
+
 export const FlexCenter = styledComponents.div`
 display: flex;
 justify-content: center;

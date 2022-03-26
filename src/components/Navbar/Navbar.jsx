@@ -15,7 +15,8 @@ import {
     SmallScreen,
     SmallScreenOverlay,
     StyledAiFillCloseCircle,
-    StyledAiOutlineMenu,
+    // eslint-disable-next-line prettier/prettier
+    StyledAiOutlineMenu
 } from './Navbar.style';
 
 const navItems = [
