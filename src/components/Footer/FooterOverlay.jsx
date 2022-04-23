@@ -1,6 +1,14 @@
 import React from 'react';
-import './FooterOverlay.css';
+import {
+    FooterOverlayImage,
+    // eslint-disable-next-line prettier/prettier
+    FooterOverlaySection
+} from './FooterOverlay.Styles';
 
-const FooterOverlay = () => <div>FooterOverlay</div>;
+const FooterOverlay = () => (
+    <FooterOverlaySection>
+        <FooterOverlayImage />
+    </FooterOverlaySection>
+);
 
 export default FooterOverlay;

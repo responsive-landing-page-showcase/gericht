@@ -8,7 +8,7 @@ const GallerySection = styledComponents(FlexCenter)`
     flex-direction:row;
     flex-wrap: wrap;
     background-color: ${colors.Black};
-    padding:4rem 0 4rem 6rem 
+    padding:4rem 0 4rem 4rem ;
     @media screen and (max-width: 1150px) {
         flex-direction: column;
     }
@@ -18,7 +18,7 @@ const GallerySection = styledComponents(FlexCenter)`
         }
     @media screen and (max-width: 650px) 
     { 
-        padding: 4rem 0 4rem 2rem;
+        padding: 2rem 0 2rem 2rem;
     }`;
 
 const GalleryContent = styledComponents.div`
@@ -55,7 +55,11 @@ max-width: 50%;
 position: relative;
 @media screen and (max-width: 1150px) {
     max-width: 100%;
-    margin: 5rem 0;
+    margin: 2rem 0;
+}
+@media screen and (max-width: 650px) {
+   
+    margin: 1rem 0;
 }
 `;
 const GalleryImagesContainer = styledComponents.div`

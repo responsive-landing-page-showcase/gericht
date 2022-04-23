@@ -1,6 +1,5 @@
 import React from 'react';
-import './App.css';
-import { FooterOverlay, Navbar } from './components';
+import { Navbar } from './components';
 import {
     AboutUs,
     Chef,
@@ -26,11 +25,8 @@ const App = () => (
         <Intro />
         <Laurels />
         <Gallery />
-
         <FindUs />
         <Footer />
-
-        <FooterOverlay />
     </>
 );
 
