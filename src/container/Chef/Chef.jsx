@@ -2,6 +2,7 @@ import React from 'react';
 import { HeadingPrimary, SubHeading } from '../../components';
 import { images } from '../../constants';
 import {
+    Image,
     POpensans,
     Wrapper,
     WrapperImageReverse,
@@ -15,7 +16,6 @@ import {
     ChefSection,
     ChefSign,
     Designation,
-    Image,
     ImageQuate,
     ImageSign,
     // eslint-disable-next-line prettier/prettier

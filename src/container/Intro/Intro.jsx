@@ -12,7 +12,7 @@ import {
 
 const Intro = () => {
     const [playVideo, setPlayVideo] = React.useState(false);
-    const { vidRef } = React.useRef();
+    const vidRef = React.useRef(null);
 
     return (
         <IntroSection>
@@ -23,9 +23,9 @@ const Intro = () => {
                     onClick={() => {
                         setPlayVideo(!playVideo);
                         if (playVideo) {
-                            vidRef.current.play();
-                        } else {
                             vidRef.current.pause();
+                        } else {
+                            vidRef.current.play();
                         }
                     }}
                 >

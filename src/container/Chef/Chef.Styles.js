@@ -10,14 +10,6 @@ background-size: cover;
 background-repeat: repeat;
 background-attachment: fixed;`;
 
-const Image = styledComponents.img`
-    width: 80%;
-    @media screen and (max-width: 1150px) {
-        width: 100%;
-    }
-    
-    `;
-
 const ChefContent = styledComponents.div`
 display: flex;
 flex-direction: column;
@@ -72,7 +64,6 @@ width: 250px;
 margin-top: 3rem;`;
 
 export {
-    Image,
     ImageSign,
     ChefSection,
     ChefContent,

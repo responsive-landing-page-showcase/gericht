@@ -1,18 +1,12 @@
 import styledComponents from 'styled-components';
 import { colors } from '../../constants';
-import { SectionPadding } from '../../GlobalStyle';
+import { POpensans, SectionPadding } from '../../GlobalStyle';
 
 const HeaderSection = styledComponents(SectionPadding)`
     background-color: ${colors.Black};
 `;
+const Paragraph = styledComponents(POpensans)`
+margin: 2rem 0;`;
 
-const Image = styledComponents.img`
-    width: 80%;
-    @media screen and (max-width: 1150px) {
-        width: 100%;
-    }
-    
-    `;
-
-export { HeaderSection, Image };
+export { HeaderSection, Paragraph };
 // export default

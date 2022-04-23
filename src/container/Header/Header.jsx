@@ -3,13 +3,13 @@ import { HeadingPrimary, SubHeading } from '../../components';
 import { images } from '../../constants';
 import {
     CustomButton,
-    POpensans,
+    Image,
     Wrapper,
     WrapperImage,
     // eslint-disable-next-line prettier/prettier
     WrapperInfo
 } from '../../GlobalStyle';
-import { HeaderSection, Image } from './Header.style';
+import { HeaderSection, Paragraph } from './Header.style';
 
 const Header = () => (
     <HeaderSection>
@@ -18,10 +18,10 @@ const Header = () => (
                 <SubHeading title="Chase The New Flavour" />
                 <HeadingPrimary title="The Key To Fine Dining" />
 
-                <POpensans style={{ margin: '2rem 0' }}>
+                <Paragraph>
                     Sit Tellus Lobortis Sed Senectus Vivamus Molestie. Condimentum Volutpat Morbi
                     Facilisis Quam Scelerisque Sapien. Et, Penatibus Aliquam Amet Tellus
-                </POpensans>
+                </Paragraph>
                 <CustomButton type="button">Explore Menu </CustomButton>
             </WrapperInfo>
             <WrapperImage>

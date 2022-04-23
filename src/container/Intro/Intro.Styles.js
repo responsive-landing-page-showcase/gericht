@@ -17,14 +17,14 @@ inset: 0;
 background: rgba(0, 0, 0, 0.65);`;
 
 const VideoOverlayCircle = styledComponents(FlexCenter)`
-width: 100px;
-height: 100px;
+width: 60px;
+height: 60px;
 border-radius: 50%;
 border: 1px solid ${colors.Golden};
 cursor: pointer;`;
 
 const StyledBsFillPlayFill = styledComponents(BsFillPlayFill)`
-color: ${colors.White};
+color: ${colors.Golden};
 font-size: 30px;`;
 const StyledBsPauseFill = styledComponents(BsPauseFill)`
 color: ${colors.White};

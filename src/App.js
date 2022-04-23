@@ -24,11 +24,12 @@ const App = () => (
         <SpecialMenu />
         <Chef />
         <Intro />
-        <FindUs />
-        <Footer />
+        <Laurels />
         <Gallery />
 
-        <Laurels />
+        <FindUs />
+        <Footer />
+
         <FooterOverlay />
     </>
 );

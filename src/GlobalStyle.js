@@ -1,4 +1,5 @@
 import styledComponents from 'styled-components';
+import AboutBG from './assets/bg.webp';
 import { colors, fonts } from './constants';
 
 export const SectionPadding = styledComponents.div`
@@ -71,6 +72,14 @@ export const HeadtextCormorant = styledComponents.h1`
         line-height: 70px;
      }           
 `;
+
+export const Image = styledComponents.img`
+    width: 80%;
+    @media screen and (max-width: 1150px) {
+        width: 100%;
+    }
+    
+    `;
 export const CustomButton = styledComponents.button`
 
     background-color: ${colors.Crimson};
@@ -139,3 +148,10 @@ display: flex;
 justify-content: center;
 align-items: center;
 `;
+
+export const BG = styledComponents.div`
+background: url(${AboutBG});
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat;
+  background-attachment: fixed;`;
