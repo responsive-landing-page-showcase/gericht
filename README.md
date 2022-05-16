@@ -1,6 +1,6 @@
 ﻿# Gericht Restaurant Landing Page
 
-﻿# Gericht Full responsive website Using React & styled-components
+ #Full responsive website Using React & styled-components
 
 #
 
