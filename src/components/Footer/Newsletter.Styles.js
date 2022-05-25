@@ -41,6 +41,8 @@ padding: 0.75rem 1rem;
 background: ${colors.Black};
 ::placeholder {
     color: ${colors.Crimson};
+    font-family: ${fonts.base};
+    font-size: 1rem;
 }`;
 
 export { NewsletterSection, NewsletterHeading, InputContainer, Input };

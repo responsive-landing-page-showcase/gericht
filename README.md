@@ -4,7 +4,7 @@
 
 #
 
-![alt text](markdown/markdown.jpg)
+![alt text](Markdown.jpg)
 
 _Gericht_
 

@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import { images } from '../../constants';
 import {
     Div,
@@ -36,10 +37,10 @@ const Navbar = () => {
                 </a>
             </NavBarLogo>
             <NavBarLinks>
-                {navItems.map(({ name, link }) => (
+                {navItems.map((name) => (
                     <NavItem key={name}>
-                        <NavLink primary href={link}>
-                            {name}
+                        <NavLink as={Link} to={name.link}>
+                            {name.name}
                         </NavLink>
                     </NavItem>
                 ))}

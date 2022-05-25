@@ -53,6 +53,7 @@ const NavItem = styled.li`
     margin: 0 1rem;
     cursor: pointer;
 `;
+
 const NavLink = styled.a`
     font-family: ${fonts.alt};
     color: ${(props) => (props.primary ? '#ffffff' : '#dcca87')};
