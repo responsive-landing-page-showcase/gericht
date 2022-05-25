@@ -21,11 +21,11 @@ import {
 } from './Navbar.style';
 
 const navItems = [
-    { name: 'Home', link: 'gericht/' },
-    { name: 'About', link: 'gericht/about' },
-    { name: 'Menu', link: 'gericht/menu' },
-    { name: 'Awards', link: 'gericht/awards' },
-    { name: 'Contact', link: 'gericht/contact' },
+    { name: 'Home', link: '/' },
+    { name: 'About', link: '/about' },
+    { name: 'Menu', link: '/menu' },
+    { name: 'Awards', link: '/awards' },
+    { name: 'Contact', link: '/contact' },
 ];
 const Navbar = () => {
     const [toggleMenu, setToggleMenu] = useState(false);
