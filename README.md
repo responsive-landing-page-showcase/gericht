@@ -1,8 +1,6 @@
-﻿# Gericht Restaurant Landing Page
+﻿# Gericht Restaurant
 
-## Gericht Full responsive website Using React & styled-components
-
-#
+## Gericht Restaurant full responsive website Using React & styled-components.
 
 ![alt text](Markdown.jpg)
 
