@@ -2,7 +2,7 @@
 
 ## Gericht Restaurant full responsive website Using React & styled-components.
 
-![alt text](Markdown.jpg)
+![alt text](Markdown)
 
 _Gericht_
 
