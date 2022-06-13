@@ -1,4 +1,3 @@
-import React from 'react';
 import { Route, Routes } from 'react-router-dom';
 import Global from './Global';
 import { About, Awards, BookTable, Contact, Home, Login, Menu, PageNotFound } from './Page';
@@ -7,6 +6,7 @@ const App = () => (
     <>
         <Global />
         <Routes>
+            <Route path="/gericht" element={<Home />} />
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/menu" element={<Menu />} />
